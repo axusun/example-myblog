@@ -18,6 +18,15 @@ a{
 	background-image: url(../img/mainbuy0back.png);
 	background-size: cover;
 	margin-top:0.44rem;
+	overflow: hidden;
+}
+.mainbuy0head a:nth-child(1){
+	width: 0.66rem;
+	height: 0.66rem;
+	background-image: url(../img/perstart_03.png);
+	background-size: cover;	
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
 }
 .mainbuy0main{
 	height: 7.52rem;

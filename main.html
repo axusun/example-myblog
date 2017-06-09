@@ -51,36 +51,42 @@
 				<a href="">MORE</a>
 			</div>
 			<div class="hotgoodlist">
-					<a href="mainbuy1.html">
+					<div class="hhh">
+						<a href="mainbuy1.html">
 						<img src="img/main-content_10.png" alt="" class="main-pic" />
+						</a>
 						<img src="img/main-piclove_03.png" class="main-pic2"/>
 						<div class="hotlover">
-							<img src="img/main-loveh_07.png"/>
-							<span>1314</span>
-							<img src="img/main-hotdddddd_03.png" alt="" />
-							<span>521</span>
+							<img src="img/main-loveh_07.png" class="img1"/>
+							<span class="span1">167</span>
+							<img src="img/main-hotdddddd_03.png" alt="" class="img2"/>
+							<span class="span2">61</span>
 						</div>
-					</a>
-					<a href="mainbuy1.html">
-						<img src="img/main-content_12.png" alt="" class="main-pic" />
+					</div>
+					<div class="hhh">
+						<a href="mainbuy1.html">
+							<img src="img/main-content_12.png" alt="" class="main-pic" />
+						</a>
 						<img src="img/main-piclove_03.png" class="main-pic2"/>
 						<div class="hotlover">
-							<img src="img/main-loveh_07.png"/>
-							<span>1314</span>
-							<img src="img/main-hotdddddd_03.png" alt="" />
-							<span>521</span>
+							<img src="img/main-loveh_07.png" class="img1"/>
+							<span class="span1">1314</span>
+							<img src="img/main-hotdddddd_03.png" alt="" class="img2"/>
+							<span class="span2">521</span>
 						</div>
-					</a>
-					<a href="mainbuy1.html">
+					</div>
+					<div class="hhh">
+						<a href="mainbuy1.html">
 						<img src="img/main-content_14.png" alt="" class="main-pic" />
+						</a>
 						<img src="img/main-hptjj_06.png" class="main-pic2"/>
 						<div class="hotlover">
-							<img src="img/main-loveh_07.png"/>
-							<span>1314</span>
-							<img src="img/main-hotdddddd_03.png" alt="" />
-							<span>521</span>
+							<img src="img/main-loveh_07.png" class="img1"/>
+							<span class="span1">1304</span>
+							<img src="img/main-hotdddddd_03.png" alt="" class="img2"/>
+							<span class="span2">321</span>
 						</div>
-					</a>
+					</div>
 			</div>
 			<div class="main-banner2"></div>
 			<div class="main-hotgood2">
@@ -178,3 +184,22 @@
 		<div class="main-none"></div>
 	</body>
 </html>
+<script>
+	let hotlover=document.querySelectorAll(".hotlover");
+	for(let i=0;i<hotlover.length;i++){
+		let img1=hotlover[i].getElementsByClassName("img1")[0];
+		let img2=hotlover[i].getElementsByClassName("img2")[0];
+		let span1=hotlover[i].getElementsByClassName("span1")[0];
+		let span2=hotlover[i].getElementsByClassName("span2")[0];
+		let num=0;
+		img1.onclick=function(){
+			let num=span1.innerText;
+			console.log(num)
+			span1.innerText=parseInt(num)+1;
+		}
+		img2.onclick=function(){
+			let num=span2.innerText;
+			span2.innerText=parseInt(num)-1;
+		}
+	}
+</script>

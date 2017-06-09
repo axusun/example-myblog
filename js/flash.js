@@ -2,7 +2,7 @@
 * @Author: gj
 * @Date:   2017-05-28 17:51:33
 * @Last Modified by:   gj
-* @Last Modified time: 2017-05-28 19:56:16
+* @Last Modified time: 2017-06-09 22:48:51
 */
 
 'use strict';
@@ -26,7 +26,6 @@ $(function(){
     },false);
     imgbox.addEventListener('touchmove',function(e){
     	let num = Math.round(this.offsetLeft/imgwidth);
-    	console.log(num)
         let ev = e.changedTouches[0];
         let mx = ev.pageX;	
         let movelength=mx-ox;
@@ -55,8 +54,6 @@ $(function(){
 
    	imgbox.addEventListener('touchend',function(){      //抬起
         let num = Math.round(this.offsetLeft/imgwidth);
-        console.log(num)
-        imgbox.style.transition = '0.5s';
         imgbox.style.left = num * imgwidth+'px';
     },false)	
 })
