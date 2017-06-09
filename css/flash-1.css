@@ -1,0 +1,91 @@
+/*
+* @Author: lenovo 拯救者 Y
+* @Date:   2017-04-12 16:10:16
+* @Last Modified by:   gj
+* @Last Modified time: 2017-05-28 19:58:54
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-appearance: none;
+	-webkit-text-size-adjust: 100%;
+	-webkit-user-select: none;	
+	-webkit-overflow-scrolling: touch;
+	-webkit-user-select:none;
+	user-select:none;
+	 -webkit-tap-highlight-color:rgba(255,255,255,0); 
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	-webkit-transform: translate(0,0,0);
+}
+body,html{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	background: #F3F3F3;
+}
+.flash_head{
+	position: absolute;
+	width:300%;
+	height:100%;
+}
+.flash_head img{
+	display: block;
+	float: left;
+	width:33.33%;
+	height:100%;
+}
+.flash_head>a{
+	display: block;
+	float: left;
+	width:33.33%;
+	height:100%;
+}
+.flash_head>a>img{
+	width: 100%;
+	height: 100%;
+}
+.flash_btn{
+	width: 0.91rem;
+	height: 0.31rem;
+	position:absolute;
+	right:0.5rem;
+	top: 0.5rem;
+	border-radius: 0.2rem;
+	border: 0.02rem solid #6F6F6F;
+}
+.flash_btn a{
+	text-decoration:none;
+	color: #6F6F6F;
+}
+.flash_btn>h1{
+	font-size: 0.2rem;
+	line-height: 0.31rem;
+	text-align: center;
+	color: #6F6F6F;
+}
+.flash_round{
+	width:1rem;
+	height:0.1rem;
+	position: absolute;
+	bottom:2rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.flash_li{
+	width:0.1rem;
+	height:0.1rem;
+	background:#303030;
+	border-radius: 50%;
+	float: left;
+	margin-right:0.2rem;
+}
+.flash_li:first-child{
+	background: #7A16FF;
+}
+.flash_li:last-child{
+	margin-right:0px;
+}

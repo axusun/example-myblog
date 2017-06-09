@@ -1,0 +1,331 @@
+
+* @Author: yuxiaoxian
+* @Date:   2017-04-12 15:05:47
+* @Last Modified by:   gj
+* @Last Modified time: 2017-04-13 17:05:23
+*/
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+	-webkit-overflow-scrolling:touch;
+	/* -webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0); */
+	-webkit-user-select:none;user-select:none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	-webkit-text-size-adjust: 100%;
+  	text-size-adjust: 100%;
+}
+body{
+	background: #f0f0f0;
+	font-family:Helvetica;
+	-webkit-overflow-scrolling:touch; overflow-scrolling: touch;
+}
+p{
+	max-height:9999999px;
+}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/* head */
+.soso2-head{
+	width: 100%;
+	height: 1rem;
+	background: #0E121E;
+	border-top: 0.000001rem solid white;
+}
+.soso2-head .return{
+	display: block;
+	float: left;
+	margin-top: 0.265rem;
+	margin-left: 0.24rem;
+}
+.soso2-head .return img{
+	width: 0.47rem;
+	height: 0.47rem;
+}
+.soso2-head input{
+	display: block;
+	width: 5.7rem;
+	height: 0.4rem;
+	outline: none;
+	border: 0;
+	border-radius:0.05rem;
+	font-size: 0.26rem;
+	font-family: 微软雅黑;
+	padding-left: 0.33rem;
+	box-sizing: border-box;
+	margin-left: 0.2rem;
+	float: left;
+	margin-top: 0.3rem;
+	line-height: 0.45rem;
+}
+.soso2-head .search{
+	display: block;
+	float: left;
+	margin-top: 0.265rem;
+	margin-left: 0.19rem;
+}
+.soso2-head .search img{
+	width: 0.47rem;
+	height: 0.47rem;
+}
+.soso2-hot{
+	width: 100%;
+	height: auto;
+}
+.soso2-hot .hot-search{
+	width: 7.02rem;
+	height: 0.54rem;
+	/* background: pink; */
+	margin: 0 auto;
+	margin-top: 0.15rem;
+}
+.soso2-hot .hot-search img:nth-child(1){
+	display: block;
+	width: 1.5rem;
+	height: 0.54rem;
+	float: left;
+}
+ .hot-search a{
+	display: block;
+	width: 1.18rem;
+	height: 0.44rem;
+	float: right;
+	margin-right: 0.25rem;
+}
+.soso2-picture{
+	width: 7.02rem;
+	height: 2.49rem;
+	margin: 0 auto;
+	margin-top: 0.125rem;
+	/* background: purple; */
+}
+.soso2-picture .img{
+	display: block;
+	width: 50%;
+	height: 1.02rem;
+	float: left;
+	box-sizing: border-box;
+}
+/* .soso2-picture .img:nth-child(2){
+	padding-left: 0.05rem;
+} */
+.soso2-picture .tcyp{
+	width: 1.2rem;
+	height: 0.4rem;
+	font-family: 微软雅黑;
+	font-size: 0.3rem;
+	color: white;
+	position: absolute;
+	left: 1.4rem;
+	top: 1.9rem;
+	border-bottom: 1px solid #DDCFCD;
+}
+.soso2-picture .xk{
+	width: 1.8rem;
+	height: 0.4rem;
+	font-family: 微软雅黑;
+	font-size: 0.3rem;
+	color: #DDCFCD;
+	position: absolute;
+	left: 1.35rem;
+	top: 2.34rem;
+}
+.soso2-picture .tcyp2{
+	width: 1.2rem;
+	height: 0.4rem;
+	font-family: 微软雅黑;
+	font-size: 0.3rem;
+	color: white;
+	position: absolute;
+	left: 4.85rem;
+	top: 1.9rem;
+	border-bottom: 1px solid #DDCFCD;
+}
+.soso2-picture .xk2{
+	width: 1.8rem;
+	height: 0.4rem;
+	font-family: 微软雅黑;
+	font-size: 0.3rem;
+	color: #DDCFCD;
+	position: absolute;
+	left: 4.8rem;
+	top: 2.34rem;
+}
+.soso2-hot{
+	width: 7.02rem;
+	height: auto;
+	margin: 0 auto;
+	/* background: purple; */
+}
+
+.six{
+	display: block;
+	width: 33.33%;
+	height: 0.64rem;
+	float: left;
+	/* background: yellow; */
+	padding: 0.01rem 0rem;
+	box-sizing: border-box;
+	position: relative;
+	margin-top: 0.05rem;
+	margin-bottom: 0.03rem;
+	border-top: 0.000001rem solid #F0F0F0;
+}
+.six img{
+	display: block;
+	width: 2.24rem;
+	height: 0.64rem;
+	/* padding-right: 0.05rem; */
+	box-sizing: border-box;
+}
+.six .whitek{
+	width: 2.24rem;
+	height: 0.59rem;
+	background: white;
+	border-radius: 0.1rem;
+	margin-top: 0.03rem;
+	float: left;
+}
+
+.soso2-picture .six span{
+	display: block;
+	font-family: 微软雅黑;
+	font-size: 0.28rem;
+	color: black;
+	position: absolute;
+	left: 0rem;
+	top: 0.15rem;
+	z-index: 999;
+	margin-left: 0.6rem;
+	
+}
+/* histry */
+.soso2-histry{
+	width: 100%;
+	height: auto;
+}
+.soso2-histry .histry-search{
+	width: 7.02rem;
+	height: 0.54rem; 	 	
+	/* background: green; */
+	margin: 0 auto;
+	margin-top: 0.125rem;
+}
+.soso2-histry .histry-search img:nth-child(1){
+	display: block;
+	width: 1.5rem;
+	height: 0.54rem;
+	float: left;
+}
+ .soso2-histry .histry-search a{
+	display: block;
+	width: 1.18rem;
+	height: 0.44rem;
+	float: right;
+	margin-right: 0.25rem;
+}
+.soso2-histry .histry-img{
+	width: 7.15rem;
+	height: 1.75rem;
+	margin: 0 auto;
+	background-image: url("../img/soso6-img10.png");
+	background-size: cover;
+	margin-top: 0.12rem;
+	border-top: 0.000001rem solid #F0F0F0;
+}
+.soso2-histry .histry-img a:nth-child(1){
+	display: block;
+	width: 6.28rem;
+	height: 0.55rem;
+	border-bottom: 1px solid #676766;
+	box-sizing: border-box;
+	margin-left: 0.4rem;
+	float: left;
+	margin-top: 0.05rem;
+}
+.soso2-histry .histry-img a:nth-child(2){
+	display: block;
+	width: 6.28rem;
+	height: 0.6rem;
+	border-bottom: 1px solid #676766;
+	box-sizing: border-box;
+	margin-left: 0.4rem;
+	float: left;
+}
+.soso2-histry .histry-img a img{
+	display: block;
+	width: 0.46rem;
+	height: 0.44rem;
+	float: left;
+	margin-top: 0.1rem;
+}
+.soso2-histry .histry-img a span{
+	font-size: 0.28rem;
+	display: block;
+	float: left;
+	font-family: 微软雅黑;
+	color: white;
+	margin-top: 0.15rem;
+	margin-left: 0.13rem;
+}
+.soso2-histry .histry-img a div:nth-child(3){
+	width: 0.09rem;
+	height: 0.09rem;
+	background: #569E35;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.1rem;
+	margin-top: 0.3rem;
+
+}
+.soso2-histry .histry-img a div:nth-child(4){
+	width: 0.09rem;
+	height: 0.09rem;
+	background: #E42236;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.1rem;
+	margin-top: 0.3rem;
+}
+.soso2-histry .histry-img .laji{
+	display: block;
+	margin-left: -4rem;
+	float: left;
+	margin-top: 0.63rem;
+}
+.soso2-histry .histry-img .laji img{
+	width: 0.27rem;
+	height: 0.3rem;
+	color: white;
+}
+.soso2-histry .histry-img .laji span{
+	margin-top: 0.05rem;
+}
+.soso2-histry .histry-img .mkf{
+	width: 1.12rem;
+	height: 0.98rem;
+	margin-left: 1.15rem;
+}

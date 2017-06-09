@@ -1,0 +1,78 @@
+/*
+* @Author: Acer
+* @Date:   2017-04-06 10:44:28
+* @Last Modified by:   Acer
+* @Last Modified time: 2017-04-06 20:02:44
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+	/* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+	-webkit-appearance: none;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+body{
+ 	/* font-family:Helvetica; */
+ 	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;  /* //安卓不支持 */
+	-webkit-overflow-scrolling:touch;
+	/* -webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0); */
+	-webkit-overflow-scrolling:touch;
+	overflow-scrolling: touch;
+	-webkit-user-select:none;
+	user-select:none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	-webkit-text-size-adjust: 100%;
+	 text-size-adjust: 100%;
+	 background: #F5F6FA;
+ }
+p{
+	max-height:9999999px;
+}
+
+ html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+ 	-webkit-text-size-adjust:none;
+ }
+
+img{
+	display: block;
+}
+/* body{
+-webkit-text-size-adjust:100%
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-webkit-appearance: none;
+-webkit-user-select:none  //安卓不支持
+p{max-height:9999999px}
+-webkit-overflow-scrolling:touch
+-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
+body {-webkit-overflow-scrolling:touch; overflow-scrolling: touch;}
+-webkit-user-select:none;user-select:none;
+-webkit-tap-highlight-color:rgba(255,255,255,0);
+-webkit-text-size-adjust: 100%;
+
+} */
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font-size: 16px;
+    font-family: "苹方","微软雅黑", "Helvetica";
+    color: #999;
+}
+a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+img{
+	display: block;
+}

@@ -1,0 +1,250 @@
+*{
+	padding: 0;
+	margin:0;
+	list-style: none;	
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color:transparent;
+}
+.regbackground{
+	width: 7.5rem;
+	height: 13.34rem;
+	margin:0 auto;
+	background-image: url(../img/regbackground.png);
+	background-size:cover ;
+	background-repeat: no-repeat;
+	border-top:0.01px solid rgba(0,0,0,0);
+	box-sizing: border-box;
+	position: relative;
+}
+.regbackground .round{
+	width:2.1rem;
+	height:2.1rem;
+	border-radius: 50%;
+	border:1px solid #3B9AB8;
+	box-sizing:border-box;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 1.53rem;
+	animation:move 5s linear infinite;
+}
+@keyframes move{
+	0%{
+		transform: rotate(0deg)
+	}
+	100%{
+		transform: rotate(360deg)
+	}
+}
+.redround{
+	width:0.1rem;
+	height: 0.1rem;
+	background: #FF2452;
+	border-radius:50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -0.05rem;
+	margin: auto;
+	z-index:50;
+}
+.greenround{
+	width:0.1rem;
+	height: 0.1rem;
+	background: #3CC322;
+	border-radius:50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:-0.05rem;
+	margin: auto;
+	z-index:50;
+}
+.blueround{
+	width:0.1rem;
+	height: 0.1rem;
+	background: #43C4F2;
+	border-radius:50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right:-0.06rem;
+	margin: auto;
+	z-index:50;
+}
+.yellowround{
+	width:0.1rem;
+	height: 0.1rem;
+	background: #FFD824;
+	border-radius:50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:-0.06rem;
+	margin: auto;
+	z-index:50;
+}
+.regfanhui{
+	display: block;
+	height: 0.45rem;
+	width: 0.45rem;
+	position:absolute ;
+	top:0.67rem;
+	left:0.34rem;
+}
+.regfanhui img{
+	width: 100%;
+	height: 100%;
+}
+.regtouxiang{
+	height: 4.17rem;
+	width: 5.15rem;
+	background-image: url(../img/regtouxiang.png);
+	background-size: cover;
+	margin:1.48rem auto;	
+	margin-bottom: 0;
+}
+.regzhanghao{
+	height: 0.55rem;
+	width: 3.74rem;
+	margin:0 auto;
+	margin-top:0.54rem;
+	border-bottom: 0.01rem solid #464C6D;
+	box-sizing: border-box;
+	display: flex;
+	position: relative;
+}
+.regzhanghao img{
+	height: 0.32rem;
+	width: 0.32rem;
+	margin-top:0.11rem;
+	margin-left:0.05rem;
+}
+.regzhanghao input{
+	background: none;
+	border:none;
+	outline: none;
+	font-size: 0.16rem;
+	color:#fff;
+	padding-left:0.24rem;
+	box-sizing: border-box;
+}
+.regyanzhengma input{
+	margin-left:0.37rem;
+	width: 1.63rem;
+}
+.regyzmtext{
+	display: block;
+	position: absolute;
+	height: 0.37rem;
+	width: auto;
+	background: #FFF;
+	border-radius: 0.17rem;
+	right:0;
+	text-align: center;
+	padding:0 .15rem;
+	box-sizing: border-box;
+	top:0.09rem;
+}
+.regyzmtext1{
+	display: flex;
+	width: 1.09rem;
+	justify-content: space-between;
+	align-items: center;	
+}
+.regyzmleft{
+	height: 0.05rem;
+	width: 0.05rem;
+	background: #2B53D5;
+	border-radius: 50%;
+}
+.regyzmtext p{
+	line-height: 0.37rem;
+	font-size: 0.20rem;
+	color:#2B53D5;
+}
+.regsoso{
+	margin-top:0;
+	height: 0.22rem;
+	margin-top:0.2rem;
+	border-bottom: 0;
+	padding-left:0.1rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.regsosodeg{
+	display: block;
+	height: 0.22rem;
+	width: 0.22rem;
+	background: #FFFFFF;
+	border-radius: 50%;
+}
+.regsosodeg1{
+	height: 0.08rem;
+	width: 0.08rem;
+	margin-top: 0.07rem;
+	margin-left: 0.07rem;
+	background: #2D5CD5;
+	border-radius: 50%;
+}
+.regsoso a{
+	display: block;
+	height: 100%;
+	font-size: 0.22rem;
+	color:#fff;
+	line-height: 0.22rem;
+}
+.regsosoleft{
+	margin-left:-0.5rem;
+	height: 100%;
+	width: auto;
+	font-size: 0.22rem;
+	color:#fff;
+	line-height: 0.22rem;
+}
+.reglogin0{
+	width: 2.69rem;
+	height: 0.63rem;
+	margin:0.71rem auto;
+	position: relative;
+}
+.regloginback {
+	height: .8rem;
+	width: 3.2rem;
+	position: absolute;
+	top:.08rem;
+	left:-.25rem;
+	z-index: 0;
+}
+.regloginback img{
+	height: 100%;
+	width: 100%;
+}
+.reglogin{
+	display: block;
+	width:100%;
+	height: 100%;
+	background: #2D5CD5;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	z-index: 1;
+}
+.regloginleft{
+	height: 0.07rem;
+	width: 0.07rem;
+	background: #fff;
+	border-radius: 50%;
+}
+.reglogin img{
+	height: 0.29rem;
+	width: 1.29rem;
+}

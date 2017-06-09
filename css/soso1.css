@@ -1,0 +1,317 @@
+
+/* * @Author: Acer
+* @Date:   2017-04-12 09:31:19
+* @Last Modified by:   Acer
+* @Last Modified time: 2017-04-13 16:01:14
+*/
+ 
+
+/* 头部开始 */
+.soso1-header{
+	width:100%;
+	height:1rem;
+	background: #0E121E;
+	border:0.01rem solid #0E121E;
+	box-sizing: border-box;
+}
+
+
+.soso1-header-input{
+	width: 5.07rem;
+	margin:0.15rem 0.89em 0.15rem 0.9rem;
+	padding: 0.21rem 0.23rem 0.21rem 0.22rem;
+	border: 0;
+	outline: none;
+	font-size: 0.24rem;
+	color: #4E4B49;
+	float:left;
+	border-radius: 0.1rem;
+	background: #fff;
+	text-align: center; 
+}
+
+.soso1-header-a{
+	display: block;
+	width:0.42rem; 
+	height: 0.42rem;
+	background: url('../img/soso1-icon1.png');
+	background-size: cover;
+	float: left;
+	margin:0.32rem  0.15rem 0.26rem 0; 
+}
+
+
+/* 头部结束 */
+
+
+/* 内容开始 */
+
+.soso1-content{
+	width:100%;
+	height: auto;
+	overflow: hidden;
+	background:#F5F5F5;  
+}
+
+.soso1-content-box1{
+	height: auto;
+	overflow: hidden;
+	/* margin:0.32rem 0.24rem 0.26rem 0.29rem; */
+}
+
+.soso1-box1-left{
+	width: 1.48rem;
+	height:0.7rem ;
+	background: url('../img/soso1-img5.png') no-repeat;
+	background-size: 100%;
+	float: left;
+	margin:0.32rem 0.24rem 0.26rem 0.29rem;
+}
+
+.soso1-box1-right{
+	display:block;
+	width:1.08rem;
+	height: 0.33rem; 
+	background: url('../img/soso1-icon2.png') no-repeat;
+	background-size: 100%;
+	float: right;
+	margin:0.32rem 0.24rem 0.26rem 0.29rem;
+}
+
+/* 2 */
+.soso1-content-box2{
+	width: 100%;
+	height: 1.04rem;
+	background: url('../img/soso1-img6.png') no-repeat;
+	background-size: 100%;
+	box-shadow:0.02rem 0.02rem 0.02rem 0.02rem #D8D8D8;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.soso1-box2{
+	height: 0.56rem;
+	text-transform: uppercase;
+}
+
+.soso1-box2 p:nth-child(1){
+	color: #000;
+	font-weight: 700;
+	font-size: 0.24rem;
+}
+
+.soso1-box2 p:nth-child(2){
+	font-weight: 400;
+	color: #2F2F2F;
+	font-size: 0.14rem;
+	text-align: center;
+}
+
+/* 3 */
+.soso1-content-box3{
+	width:7.04rem;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content:space-around;
+	flex-wrap: wrap; 
+	/* background: red; */
+	margin:0.24rem auto 0; 
+}
+
+	
+
+
+.soso1-content-box3:nth-child(1) a:nth-child(1){
+	display:block;
+}
+
+
+.soso1-box3-son1{
+	width:100%;
+	height:2.21rem;
+	display: flex;
+	margin-top: 0.13rem;
+}
+
+.soso1-son1-left1{
+	width: 2.24rem;
+	height: 100%;
+	background: url('../img/soso1-img1.png') no-repeat;
+	background-size: cover;
+}
+
+.soso1-son1-left2{
+	width: 2.24rem;
+	height: 100%;
+	background: url('../img/soso1-img2.png') no-repeat;
+	background-size: cover;
+}
+
+.soso1-son1-left3{
+	width: 2.24rem;
+	height: 100%;
+	background: url('../img/soso1-img3.png') no-repeat;
+	background-size: cover;
+}
+
+.soso1-son1-left4{
+	width: 2.24rem;
+	height: 100%;
+	background: url('../img/soso1-img4.png') no-repeat;
+	background-size: cover;
+}
+.soso1-son1-right{
+	width: 4.80rem;
+	height: 100%;
+	/* text-align: center; */
+	margin: 0 auto;
+	background: #fff;
+
+}
+
+.soso1-son1-right-contain{
+	width: 4.11rem;
+	height:1.56rem;
+	margin: 0.32rem auto;
+	position: relative;
+}
+
+.soso1-contain-a{
+	display: block;
+	float: left;
+	background: url('../img/soso1-img7.png') no-repeat;
+	background-size: 100%;
+}
+
+.soso1-right-contain-top{
+	width:100%;
+	height: auto;
+	overflow: hidden;
+
+}
+
+.soso1-son1-right-contain:nth-child(1) p:nth-child(1){
+	height: 0.3rem;  
+	color: #000;
+	font-weight: 500;
+	font-size: 0.24rem;
+}
+
+.soso1-xian{
+	width: 1.5rem;
+	height: 0.2rem;
+	background: url('../img/soso1-img8.png') no-repeat left;
+	background-size: 100%;
+}
+
+
+.soso1-hot{
+	position: absolute;
+	width:0.64rem;
+	height: 0.72rem;
+	background: url('../img/soso1-img7.png') no-repeat right top;
+	background-size: 100%;
+	right: 0;
+	top: 0;
+	margin-top:-0.4rem; 
+}
+
+.p3{
+	color: #777777;
+	font-weight: 400;
+	font-size: 0.24rem;
+}
+
+
+
+.soso1-son1-right-contain:nth-child(1) p:nth-child(2){
+	color: #777777;
+	font-weight: 400;
+	font-size: 0.24rem;
+}
+
+.soso1-son1-contain-bottom{
+	width: 100%;
+	height: 0.3rem;
+	margin-top: 0.12rem;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.soso1-son1-bottom-1{
+	width: 33.3%;
+	background:url('../img/soso1-img9.png') no-repeat;
+	background-size: 100%; 
+}
+
+.soso1-son1-bottom-2{
+	width: 33.3%;
+	background:url('../img/soso1-img10.png') no-repeat;
+	background-size: 100%; 
+}
+
+.soso1-son1-bottom-3{
+	width: 33.3%;
+	background:url('../img/soso1-img11.png') no-repeat;
+	background-size:contain; 
+}
+
+.soso1-son2-bottom-1{
+	width: 33.3%;
+	background:url('../img/soso1-img12.png') no-repeat;
+	background-size: 100%; 
+}
+
+.soso1-son2-bottom-2{
+	width: 33.3%;
+	background:url('../img/soso1-img13.png') no-repeat;
+	background-size: 100%; 
+}
+
+.soso1-son2-bottom-3{
+	width: 33.3%;
+	background:url('../img/soso1-img14.png') no-repeat;
+	background-size:contain; 
+}
+
+.soso1-son3-bottom-1{
+	width: 33.3%;
+	background:url('../img/soso1-img16.png') no-repeat;
+	background-size: 100%; 
+}
+
+.soso1-son3-bottom-2{
+	width: 33.3%;
+	background:url('../img/soso1-img17.png') no-repeat;
+	background-size: 100%; 
+}
+
+.soso1-son3-bottom-3{
+	width: 33.3%;
+	background:url('../img/soso1-img18.png') no-repeat;
+	background-size:contain; 
+}
+
+
+
+.soso1-son4-bottom-1{
+	width: 33.3%;
+	background:url('../img/soso1-img21.png') no-repeat;
+	background-size: 100%; 
+}
+
+.soso1-son4-bottom-2{
+	width: 33.3%;
+	background:url('../img/soso1-img19.png') no-repeat;
+	background-size: 100%; 
+}
+
+.soso1-son4-bottom-3{
+	width: 33.3%;
+	background:url('../img/soso1-img20.png') no-repeat;
+	background-size:contain; 
+}
+/* 内容结束 

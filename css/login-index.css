@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*font-size: 12px;*/
+	 -webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-appearance: none;/*安卓不支持*/
+	-webkit-text-size-adjust: 100%;
+	-webkit-user-select: none;
+	-webkit-user-select:none;user-select:none;
+	 -webkit-tap-highlight-color:rgba(255,255,255,0); 
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	-webkit-transform: translate(0,0,0)
+}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
+body {-webkit-overflow-scrolling:touch; overflow-scrolling: touch;}
+p{max-height:9999999px}
+
+
+body{
+	font-family: helvetica;
+}
+
+img{
+	display: block;
+}
+
+a{
+	text-decoration: none;
+}
+/*html{
+	font-size: 85px;
+}*/
+
+.round{
+	width:2.1rem;
+	height:2.1rem;
+	border-radius: 50%;
+	border:1px solid #3B9AB8;
+	box-sizing:border-box;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 1.53em;
+	animation:move 5s linear infinite;
+}
+@keyframes move{
+	0%{
+		transform: rotate(0deg)
+	}
+	100%{
+		transform: rotate(360deg)
+	}
+}
+.redround{
+	width:0.1rem;
+	height: 0.1rem;
+	background: #FF2452;
+	border-radius:50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -0.05rem;
+	margin: auto;
+	z-index:50;
+}
+.greenround{
+	width:0.1rem;
+	height: 0.1rem;
+	background: #3CC322;
+	border-radius:50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:-0.05rem;
+	margin: auto;
+	z-index:50;
+}
+.blueround{
+	width:0.1rem;
+	height: 0.1rem;
+	background: #43C4F2;
+	border-radius:50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right:-0.06rem;
+	margin: auto;
+	z-index:50;
+}
+.yellowround{
+	width:0.1rem;
+	height: 0.1rem;
+	background: #FFD824;
+	border-radius:50%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:-0.06rem;
+	margin: auto;
+	z-index:50;
+}
+.login-head{
+	width: 100%;
+	height: 13.34rem;
+	background: red;
+	background-image: url(../img/login.png);
+	background-size: 100%;
+	position: relative;
+}
+.login-zuojian{
+	width: 0.44rem;
+	height: 0.44rem;
+	position: absolute;
+	top: 0.67rem;
+	left: 0.24rem;
+	/* background-image: url(../login-img/login-tupian_03.png); */
+	background-size: 100%;
+}
+.login-zuojian a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.login-denglu{
+	width: 2.76rem;
+	height: 0.64rem;
+	position: absolute;
+	top: 7.33rem;
+	left: 0.68rem;
+	background-image: url(../login-img/login-denglu.png);
+	background-size: 100%;
+}
+.login-denglu a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.login-zhuce{
+	width: 2.76rem;
+	height: 0.64rem;
+	position: absolute;
+	top: 7.33rem;
+	left: 4.1rem;
+	background-image: url(../login-img/login-tupian_08.png);
+	background-size: 100%;
+}
+.login-zhuce a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.login-qq{
+	width: 0.84rem;
+	height: 0.85rem;
+	position: absolute;	
+	top: 10.35rem;
+	left: 2.17rem;
+	background-image: url(../login-img/login-qq.png);
+	background-size: 100%;
+}
+.login-qq a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.login-weixin{
+	width: 0.84rem;
+	height: 0.85rem;
+	position: absolute;	
+	top: 10.35rem;
+	left: 3.38rem;
+	background-image: url(../login-img/login-weixin.png);
+	background-size: 100%;
+}
+.login-weixin a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.login-weibo{
+	width: 0.84rem;
+	height: 0.85rem;
+	position: absolute;	
+	top: 10.35rem;
+	left: 4.57rem;
+	background-image: url(../login-img/login-weibo.png);
+	background-size: 100%;
+}
+.login-weibo a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.kuang{
+	width:1.7rem;
+	height:0.6rem;
+	border: 1px solid #434A6D;
+	border-radius:0.5rem 0.5rem;
+	position: absolute;
+	bottom:3.35rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.big,.bigs,.middle,.middles,.small,.smalls{
+	width:0.14rem;
+	height: 0.14rem;
+	border-radius: 50%;
+	background:#434A6D;
+	position: absolute;
+	bottom: 3.6rem;
+	opacity: 0;
+}
+.big,.bigs{
+	animation:big 3s  1s infinite;
+}
+@keyframes big{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.middle,.middles{
+	animation:middle 3s  2s infinite;
+}
+@keyframes middle{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.small,.smalls{
+	animation:small 3s  3s infinite;
+}
+@keyframes small{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.big{
+	left:2.6rem;
+}
+.bigs{
+	left:4.8rem;
+}
+.middle,.middles{
+	width:0.1rem;
+	height: 0.1rem;
+	bottom: 3.62rem;
+}
+.middle{
+	left:2.3rem;
+}
+.middles{
+	left: 5.1rem;
+}
+.small,.smalls{
+	width:0.08rem;
+	height: 0.08rem;
+	bottom: 3.64rem;
+}
+.small{
+	left:2rem;
+}
+.smalls{
+	left: 5.4rem;
+}
+
+
+
+
+
+
+
+
+
+
