@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Blog</title>
   
-  <link href="https://1342248325.github.io/MyBlog/atom.xml" rel="self"/>
+  <link href="/MyBlog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
   <updated>2017-08-08T11:31:50.690Z</updated>
